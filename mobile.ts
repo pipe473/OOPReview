@@ -74,8 +74,16 @@ export class Mobile {
         return this.cameraNumber;
       }
       public getPrice(): number {
-        return this.price = price;
+        return this.price;
       }
 
+      public charactsMobiles() {
+       console.log(`\nThe characteristics of mobile ${this.name} are: \n  ◘ Name: ${this.name} \n  ◘ Model: ${this.model} \n  ◘ Trademark: ${this.trademark} \n  ◘ SD Size(GB): ${this.sdSize} \n  ◘ Color: ${this.color} \n  ◘ Is5G: ${this.is5G} \n  ◘ Number of cameras: ${this.cameraNumber}\n`);
+        }
+
       
-}
+      }
+      
+      
+
+      
